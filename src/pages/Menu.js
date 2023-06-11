@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import RecipeItem from '../Components/RecipeItem'
-
+import RecipeItem from '../Components/RecipeItem';
+import "../styles/Menu.css";
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [meals, setMeals] = useState([]);

@@ -1,12 +1,13 @@
 import React from "react";
-
+import logo2 from "../assests/logo2.png"
 import "../styles/Contact.css";
 
 function Contact() {
   return (
     <div className="contact">
       <div
-      
+        className="leftSide"
+        style={{ backgroundImage: `url(${logo2})` }}
       ></div>
       <div className="rightSide">
         <h1> Contact Us</h1>
