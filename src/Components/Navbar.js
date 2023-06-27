@@ -19,15 +19,15 @@ function Navbar() {
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
           <Link to="/menu"> Our Recipes </Link>
-          <Link to="/about"> About </Link>
-          <Link to="/contact"> Contact </Link>
+          <Link to="/about"> About Us </Link>
+          <Link to="/contact"> Contact Us </Link>
         </div>
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
         <Link to="/menu">  Our Recipes </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/contact"> Contact </Link>
+        <Link to="/about"> About Us</Link>
+        <Link to="/contact"> Contact Us</Link>
         <button onClick={toggleNavbar}>
         
         </button>
